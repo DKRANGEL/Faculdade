@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: #ff4772;
+}
+
+body {
+  font-family: "Pacifico", cursive;
+  background-color: rgb(255, 219, 173);
+}
+
+#navbarNav {
+  padding-right: 1.5em;
+}
+
+.menu {
+  background: #ff4772;
+}
+
+.header-menu {
+  background: #ff4772;
+}
+
+.header-menu a {
+  color: #fff;
+}
+
+.navbar a {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.navbar .navbar-brand img {
+  width: 40px;
+  height: 40px;
+  
+}
+
+.navbar .navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  border-bottom: 2px solid transparent;
+  transition: 0.5s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000000;
+  border-bottom: 2px solid #fff;
+}
+
+.home img {
+  width: 550px;
+  height: 550px;
+}
+
+.container img {
+  height: auto;
+}
+
+.container-fluid h5 {
+  color: #f50039;
+}
+
+.primer {
+  margin-top: auto;
+}
+
+.botao {
+  background-color: #ff4772;
+  border: solid 2px #000000;
+  border-radius: 3px;
+}
+
+.botao:hover {
+  background-color: #ff4772;
+  border: solid 1px #ff4772;
+  border: solid 2px #000000;
+}
+
+.botaopai button i {
+  color: #000000;
+  font-weight: bold;
+}
+
+.perfumes_img img {
+  width: 12.5em;
+  height: 12.5rem;
+}
+
+.img_pfm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  border: solid 2px #000000;
+}
+/*----------------------------------------------*/

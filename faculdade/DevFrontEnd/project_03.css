@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 0;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+a {
+    margin-right: 2vw;
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    display: inline-block;
+    list-style: none;
+}
+
+img {
+    margin-top: 5vh;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.jogadores {
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+@media (max-width: 710px) {
+    .jogadores {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.Messi {
+    margin-right: 10px;
+}
+
+.Desc_messi {
+    padding: 5px;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    margin-top: 5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Neymar {
+    margin-right: 10px;
+}
+
+.Desc_neymar { 
+    padding: 5px;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    margin-top: 5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cr7 {
+    margin-right: 10px;
+}
+
+.Desc_cr7 {
+    padding: 5px;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    margin-top: 5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.R10 {
+    margin-right: 10px;
+}
+
+.Desc_r10 {
+    padding: 5px;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    margin-top: 5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+footer {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
