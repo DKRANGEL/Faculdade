@@ -2,18 +2,11 @@
 
 int main() 
 {
+    int produto;
 
-    int n1, n2, result;
+    produto = 20 * 35;
 
-    printf("digite um numero: ");
-    scanf("%d", &n1);
-
-    printf("digite outro numero: ");
-    scanf("%d", &n2);
-
-    result = n1 + n2;
-
-    printf("A soma dos números digitados é: %d", result);
+    printf("O produto dos valores 20 e 35 é: %d\n", produto);
 
     return 0;
 

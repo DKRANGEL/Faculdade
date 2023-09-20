@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
         "numero"
-    ]
+    ],
+    "cmake.sourceDirectory": "/workspaces/DKRANGEL/faculdade/Algoritmo",
+    "C_Cpp.errorSquiggles": "disabled"
 }

@@ -3,17 +3,12 @@
 int main() 
 {
 
-    int n1, n2, result;
+    int num;
 
-    printf("digite um numero: ");
-    scanf("%d", &n1);
+    printf("Digite um numero: ");
+    scanf("%d", &num );
 
-    printf("digite outro numero: ");
-    scanf("%d", &n2);
-
-    result = n1 / n2;
-
-    printf("A divisão dos números digitados é: %d\n", result);
+    printf("O numero digitado foi: %d", num);
 
     return 0;
 
