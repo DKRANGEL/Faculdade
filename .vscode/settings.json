@@ -3,5 +3,8 @@
         "numero"
     ],
     "cmake.sourceDirectory": "/workspaces/DKRANGEL/faculdade/Algoritmo",
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "string": "c"
+    }
 }

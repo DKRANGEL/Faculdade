@@ -1,22 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main()
-{
-    int num1, num2, num3;
+int main() {
+        int num[10];
+        int par[10];
+        int impar[10];
 
-    printf("Digite 3 números: ");
-    scanf("%d%d%d", &num1, &num2, &num3)
+        for (int i = 0; i < 10; i++)
+        {
+            printf("Digite uma letra: ");
+            scanf(" %c", &num[i]);
+            
+            for (int z = 0; z < count; z++)
+            {
+                /* code */
+            }
+        }
 
-    if (num1 > num2 && num2 > num3){
-        printf("1º Numero: %d\n2º Numero: %d\n3º Numero: %d", num1, num2, num3)
-    }
-    else if (num2 > num1 && num1 > num3)
-    {
-        printf("1º Numero: %d\n2º Numero: %d\n3º Numero: %d", num2, num1, num3)
-    }
-    
-    
+        for (int j = 0; j < 10; j++)
+        {
+           printf("%d. %d\n", j + 1, letra[j]);
+        }
 
     return 0;
 }

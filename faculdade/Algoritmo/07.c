@@ -1,20 +1,23 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() 
 {
 
-    char [100] nome, end, tel;
+    char nome[50];
+    char end [50];
+    char tel [15];
 
-    printf("Digite seu nome: \n");
-    scanf("[%c]", &nome);
+    printf("Digite seu nome: ");
+    fgets(nome, sizeof(nome), stdin);
 
-    printf("Digite seu endereço: \n");
-    scanf("[%c]", &end);
+    printf("Digite seu endereço: ");
+    fgets(end, sizeof(end), stdin);
 
-    printf("Digite seu telfone: \n");
-    scanf("[%c]", &tel);
+    printf("Digite seu telefone: ");
+    fgets(tel, sizeof(tel), stdin);
 
-    printf("O seu nome é: %c seu endereço é: %c e o seu telefone è: %c", nome, end, tel);
+    printf("\nNome: %s\nEndereço: %s\nTelefone: %s", nome, end, tel);
     
     return 0;
 
